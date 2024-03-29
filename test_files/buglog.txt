@@ -1,0 +1,17 @@
+#Bug 1:
+did not check sendto() return value correctly. 
+Solved by checking if the return value is < 0
+
+# version 44:
+timeout.usec = 80000
+receiver queue size = 1000
+
+# version 72:
+zero_push_size = 256
+sst = 120
+time_out = 50000 usec
+
+# version 81--88:
+zero_push_size = 256
+sst = 100
+time_out = 40000 usec
