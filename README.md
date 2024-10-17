@@ -1,2 +1,2 @@
 # TCP
-This Project implemented a TCP-like Transport Layer Protocol which acheives
+An implementation of TCP-like protocol built on top of UDP.
